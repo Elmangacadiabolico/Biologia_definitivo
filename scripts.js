@@ -84,7 +84,7 @@ showLipidsButton.addEventListener("click", () => {
     // Generar la secuencia de lípidos aleatoriamente
     let lipidSequence = initialLipids;
 
-    for (let i = 0; i < 12; i++) {
+    for (let i = 0; i < 12  ; i++) {
         const randomIndex = Math.floor(Math.random() * lipids.length);
         lipidSequence += lipids[randomIndex];
     }

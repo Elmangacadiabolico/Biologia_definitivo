@@ -2,7 +2,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
-const port = 2300;
+const port = 2304;
 
 app.set('view engine', 'ejs');
 
@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 
 let Datos = ['/CodigoGenetico.json']
 app.get('/', (req, res) => {
-  res.render('/index.html', $MisDATOS=Datos$  ); 
+  res.render('/index.html', $MisDATOS = Datos$  ); 
 });
 
 app.listen(port, () => {
